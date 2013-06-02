@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Basic Definitions of Key Terms:
  * 
  * Class - File that contains code
- * Method - A snippet of code found in a class. When a method is run, it is said to be 'called'.
+ * Method - A snippet of code found in a class. When a method is run, it is said to be 'called'. More information can be found in the 'Methods' tutorial.
  * Reserved Word - A special word used by Java that you are not allowed to use to name variables. Examples include 'public' and 'new'. They show up in purple in Eclipse.
  * Null - The absence of data. More on this later.
  * 
