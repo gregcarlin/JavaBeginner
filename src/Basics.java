@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 
  */
 
-public class TechClubExample {
+public class Basics {
     
     public static void main(String[] args) { // This is a special method automatically called when the program starts
         
@@ -60,6 +60,13 @@ public class TechClubExample {
          * You can use '==' to check if two primitive data types are equal, but you should use the equals() method with objects.
          * All primitive data types have corresponding classes that can be used to wrap them. This is not important at the moment.
          * 
+         * Note that a String is an object. Using that, you might conclude that the proper way to create a String is with:
+         * String str = new String();
+         * This would work. However, Java has literals for certain data types. Literals are essentially shortcuts for defining variables.
+         * All primitive variables are created with literals. Java also provides a literal for the String object. You are probably familiar with this literal.
+         * Strings can be defined by surrounding text in double quotes. So, as you are likely already aware of, you can define String variables using their literal like this:
+         * String str = "Hello World!";
+         * 
          */
         
         Scanner input = new Scanner(System.in); // Creates a Scanner object variable called 'input'
@@ -70,7 +77,7 @@ public class TechClubExample {
         int grade = input.nextInt(); // We can reuse the same Scanner object. Note that we also use nextInt() instead of next() to get a number. Note that if the user puts in a non-integer value, they will receive an ugly error.
         String letter; // letter is now null.
         if(grade >= 96) {
-            letter = "A+";
+            letter = "A+"; // letter is already defined, so the type is not given
         } else if(grade >= 90) {
             letter = "A";
         } else if(grade >= 86) {
