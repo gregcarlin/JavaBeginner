@@ -87,6 +87,11 @@ public class LoopsAndArrays {
         }
         
         // Try printing out the contents of 'items' to see if it worked. (Spoiler alert: it did)
+        
+        // Almost forgot to mention the literal for arrays:
+        int[] arr = new int[] {7, 3, 19}; // Creates an array with a size of three and the values 7, 3, and 19
+        // And even simpler:
+        int[] arr2 = {7, 3, 19};
     }
     
 }
